@@ -4,6 +4,7 @@ import Footer from "components/Footer";
 import Header from "components/Header";
 import Container from "components/Container";
 import { BrowserRouter, Routes, Route } from "react-router-dom"
+import FavoriteProvider from "components/Context/Favorites";
 
 function AppRoutes(){
     return(
@@ -11,13 +12,15 @@ function AppRoutes(){
         <BrowserRouter>
             <Header/>
             <Container>
-                <Routes>
+                <FavoriteProvider>
+                    <Routes>
 
-                        <Route path="/" element={<Start/>}></Route>
+                            <Route path="/" element={<Start/>}></Route>
 
-                        <Route path="/favoritos" element={<Favorite/>}></Route>
+                            <Route path="/favoritos" element={<Favorite/>}></Route>
 
-                </Routes>
+                    </Routes>
+                </FavoriteProvider>
             </Container>
             <Footer/>
         </BrowserRouter>
