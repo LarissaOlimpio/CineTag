@@ -31,11 +31,19 @@ export function useFavoriteContext(){
             newList.push(newFavorite);
             return setFavorite(newList);
         }
-        //se for repetido o splice remove um elemento da lista a partir do indexOF
-        newList.splice(newList.indexOf(newFavorite,1));
+        newList = favorite.filter((fav) => fav.id !== newFavorite.id);
         return setFavorite(newList);
 
+        //Outra solução para verificar a lista de favoritos:
+        
+        //se for repetido o splice remove um elemento da lista a partir do indexOF
+        /*
+        newList.splice(newList.findIndex(item => item.id === newList.find(item => item.id ===newFavorite.id).id),1);
+        return setFavorite(newList);*/
+      
+
     }
+    //Importaremos este return no component Card pormeio de uma const
     return{
         favorite,
         addFavorite
