@@ -1,10 +1,23 @@
 import Banner from "components/Banner";
 import Card from "components/Card";
 import Title from "components/Title";
+import { useEffect, useState } from "react";
 import styles from './Start.module.css'
-import videos from 'json/db.json'
 
 function Start(){
+    //Consumindo a Api
+    const [videos, setVideos] =  useState([]);
+
+    useEffect(() =>{
+        //URl da Api obtida diretamente de "videos"
+        //Essa URL foi feita a partir do repositório no gitHub em conjunto com o my json server
+        fetch('https://my-json-server.typicode.com/LarissaOlimpio/cinetag-api/videos')
+            //criando o Json
+            .then(response => response.json())
+            .then(data => {
+                setVideos(data)
+            })
+    },[])
     return(
         <>
         
