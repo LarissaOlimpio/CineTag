@@ -15,6 +15,10 @@
 .container h2,
 .favorite {
     padding: 0 1em;
+    
+}
+.container h2:hover{
+    color: var(--hoverAzul);
 }
 
 .favorite {

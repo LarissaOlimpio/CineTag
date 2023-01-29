@@ -5,3 +5,8 @@
     padding: 1em;
     text-decoration: none;
 }
+.link:hover{
+   
+    color: var(--hoverAzul);
+    
+}

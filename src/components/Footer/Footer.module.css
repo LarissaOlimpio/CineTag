@@ -9,3 +9,11 @@
     font-size: 18px;
     color: var(--branco);
 }
+.footer a{
+    text-decoration: none;
+    color: var(--branco);
+    
+}
+.footer a:hover{
+    color: var(--hoverAzul);
+}
