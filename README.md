@@ -2,6 +2,14 @@
 
 >Projeto em Desenvolvimento
 
+| :placard: CineTag |     |
+| -------------  | --- |
+| :sparkles: Nome        | **CineTag**
+| :label: Tecnologias | react, javascript, html5, css3 (tecnologias utilizadas)
+| :rocket: URL         |https://cine-tag-vert.vercel.app/
+
+![image](#vitrinedev)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
