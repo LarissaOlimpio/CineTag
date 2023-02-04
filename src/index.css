@@ -1,15 +1,15 @@
 :root{
-  --fonte: 'Montserrat', sans-serif;
-  --branco: #FFFFFF;
-  --preto: #000000;
-  --cinza: #E2E2E2;
+  --font: 'Montserrat', sans-serif;
+  --write: #FFFFFF;
+  --black: #000000;
+  --gray: #E2E2E2;
   --hoverAzul:rgb(61, 113, 255);
 }
 
 body {
   margin: 0;
-  font-family: var(--fonte);
-  background-color: var(--branco);
+  font-family: var(--font);
+  background-color: var(--write);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

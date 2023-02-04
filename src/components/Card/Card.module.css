@@ -2,7 +2,7 @@
     padding: 0 0 1em 0;
     margin-top: .5em;
     width: 282px;
-    background-color: var(--cinza);
+    background-color: var(--gray);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -26,6 +26,6 @@
 }
 .link {
     text-decoration: none;
-    color: var(--preto);
+    color: var(--black);
     text-align: left;
 }
