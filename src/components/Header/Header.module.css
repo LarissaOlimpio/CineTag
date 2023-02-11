@@ -1,7 +1,17 @@
 .header{
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     align-items: center;
     padding: 1.1em 20em;
+    width: auto;
     background-color: var(--black);
+    
+}
+@media screen and (min-width:768px){
+    .header{
+        flex-direction: row;
+        width: auto;
+        justify-content: space-between;
+    }
+    
 }
