@@ -32,7 +32,7 @@ https://user-images.githubusercontent.com/50180854/223243616-bae59563-a953-4275-
 
 
 
-**Para criar a API fake, utilizei o site My JSON Server : https://my-json-server.typicode.com/** 
+**Para criar a API fake, utilizei o site My JSON Server**  : https://my-json-server.typicode.com/
 
     Seguindo estes passos:
 
