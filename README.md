@@ -21,7 +21,6 @@ Adicionei também alguns elementos visuais e utilizei também CSS module para ev
 https://user-images.githubusercontent.com/50180854/223243616-bae59563-a953-4275-8721-1d2672df23c4.mp4
 
 
-
 ### Como rodar o projeto:
 
 **Você pode clonar o projeto e rodá-lo localmente seguindo os passos abaixo**
