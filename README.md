@@ -15,7 +15,11 @@ Adicionei também alguns elementos visuais e utilizei também CSS module para ev
 | :label: Tecnologias | React, JavaScript, Html5, CSS3 (tecnologias utilizadas)
 | :rocket: URL         |https://cine-tag-vert.vercel.app/
 
-![Cinetag](https://user-images.githubusercontent.com/50180854/216783551-aa73749e-f682-4792-ac19-e99a69015cea.png#vitrinedev)
+
+
+
+https://user-images.githubusercontent.com/50180854/223243616-bae59563-a953-4275-8721-1d2672df23c4.mp4
+
 
 
 ### Como rodar o projeto:
