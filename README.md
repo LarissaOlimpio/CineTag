@@ -27,4 +27,4 @@ Adicionei também alguns elementos visuais e utilizei também CSS module para ev
 3. `yarn start` ou `npm start` para rodar o projeto
 4. Acessar [http://localhost:3000](http://localhost:3000) no navegador
 
-** Projeto criado com Create-React-App, para saber mais acesse a documentação: https://create-react-app.dev/docs/getting-started/ **
+**Projeto criado com Create-React-App, para saber mais acesse a documentação: https://create-react-app.dev/docs/getting-started/**
