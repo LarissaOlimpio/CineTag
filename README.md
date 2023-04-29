@@ -1,82 +1,30 @@
 # CineTag
 
->Projeto em Desenvolvimento
+## Introdução 
+
+Este projeto foi criado a partir do curso da Alura - React:Praticando com Js, com a instrutora Mônica Hillman, onde a ideia é a criação de uma plataforma de compartilhamento de filmes que possibilita a ação tanto de assistir quanto de favoritar um item. Além disso, ao clicarmos na imagem seremos redirecionado para a tela de Player, onde é exibido o vídeo.
+Dessa forma, foi utilizado  React, HTML5, CSS3 e JavaScript então pude colocar em prática o conhecimento sobre rotas dinâmicas, normais e aninhadas, hooks como useState, useEffect e useContext e consumo de Api.
+Adicionei também alguns elementos visuais e utilizei também CSS module para evitar conflitos entre estilos. Ainda estou trabalhando com a responsividade, embora eu prefira utilizar o conceito de mobile firts, neste projeto tive como foco o aprendizado em React fixando todo aprendizado dos cursos até aqui então utilizei a base do css disponibilizado pela instrutora.
+
+
+
+> Processo de refatoração - design responsivo
 
 | :placard: CineTag |     |
 | -------------  | --- |
-| :sparkles: Nome        | **CineTag**
 | :label: Tecnologias | React, JavaScript, Html5, CSS3 (tecnologias utilizadas)
 | :rocket: URL         |https://cine-tag-vert.vercel.app/
 
 ![Cinetag](https://user-images.githubusercontent.com/50180854/216783551-aa73749e-f682-4792-ac19-e99a69015cea.png#vitrinedev)
 
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Como rodar o projeto:
 
-## Available Scripts
+**Você pode clonar o projeto e rodá-lo localmente seguindo os passos abaixo**
 
-In the project directory, you can run:
+1. `git clone https://github.com/LarissaOlimpio/CineTag.git` para clonar o projeto
+2. `yarn` ou `npm install` para instalar as dependências do projeto
+3. `yarn start` ou `npm start` para rodar o projeto
+4. Acessar [http://localhost:3000](http://localhost:3000) no navegador
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+** Projeto criado com Create-React-App, para saber mais acesse a documentação: https://create-react-app.dev/docs/getting-started/ **

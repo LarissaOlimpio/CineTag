@@ -6,6 +6,7 @@ FavoriteContext.displayName="Favorite";
 
 export default function FavoriteProvider({children}){
     const [favorite, setFavorite] = useState([]);
+ 
 
     return(
 
@@ -13,6 +14,7 @@ export default function FavoriteProvider({children}){
         //value é um parâmetro que armazena a variável de estado que criamos utilizando useState
             value={{favorite, setFavorite}}>
                 {children}
+               
         </FavoriteContext.Provider>
 
     )
@@ -32,6 +34,7 @@ export function useFavoriteContext(){
             return setFavorite(newList);
         }
         newList = favorite.filter((fav) => fav.id !== newFavorite.id);
+        
         return setFavorite(newList);
 
         //Outra solução para verificar a lista de favoritos:
@@ -47,5 +50,6 @@ export function useFavoriteContext(){
     return{
         favorite,
         addFavorite
+        
     }
 }
